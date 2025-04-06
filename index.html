@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoSnap+</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      background-image: url('images/eco-logo.png'); /* Set the logo as the background */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+
+    /* Black overlay with transparency */
+    body::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.9); /* 90% opacity black overlay */
+      z-index: -1; /* Ensure overlay is behind content */
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #00796b;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    /* Link Styling */
+    a {
+      color: #00796b;
+      font-size: 1.5em;
+      margin: 10px 0;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #004d40;
+      text-decoration: underline;
+    }
+
+    /* Button Container */
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .button-container a {
+      padding: 15px 25px;
+      background-color: #00796b;
+      color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      margin: 10px;
+      font-size: 1.2em;
+      width: 250px;
+      text-align: center;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .button-container a:hover {
+      background-color: #4caf50;
+      transform: translateY(-5px);
+    }
+
+  </style>
+</head>
+<body>
+  <h1>🌍 EcoSnap+</h1>
+  <div class="button-container">
+    <a href="camera.html">Start Scanning</a>
+    <a href="game.html">Play a Game</a>
+    <a href="map.html">Join Cleanup</a>
+    <a href="blog.html">Read our Blog</a>
+  </div>
+</body>
+</html>
