@@ -60,10 +60,10 @@ This bridges the gap between **digital learning** and **real-world environmental
 - Two-panel layout (70% map / 30% scrollable list)  
 - Dynamic event data + click-to-join logic  
 
-### 👨‍💻 Team Collaboration  
+<!-- ### 👨‍💻 Team Collaboration  
 - Divided roles: frontend design, game logic, AI, and map integration  
 - Prioritized accessibility and mobile responsiveness  
-
+-->
 ---
 
 ## 🏆 Accomplishments We’re Proud Of  
