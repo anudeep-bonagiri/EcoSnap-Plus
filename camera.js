@@ -1,5 +1,5 @@
 // Add your Gemini API key here
-const GEMINI_API_KEY = 'AIzaSyDPxBi3BuBSxfnPAOzYDPKAMl-pyElle4E';
+const GEMINI_API_KEY = '*Enter Your API KEY here*';
 
 document.addEventListener('DOMContentLoaded', () => {
     const video = document.getElementById('video');
