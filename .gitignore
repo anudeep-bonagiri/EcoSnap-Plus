@@ -1,0 +1,9 @@
+
+# Secrets: never commit real env files or keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+.secrets/
